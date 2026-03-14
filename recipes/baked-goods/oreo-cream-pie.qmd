@@ -1,3 +1,9 @@
+---
+title: Dairy Free Oreo Cream Pie
+subtitle: Who knew Oreos were dairy free?
+toc: true
+toc-depth: 6
+---
 <!--___________________________________________________________________|
 |______________________________________________________________________|
 |        _   __   _   _ _   _   _   _         _                        |
@@ -23,34 +29,52 @@
 |   //\^.^/\\  //\^.^/\\  //\^.^/\\  //\^.^/\\  //\^.^/\\  //\^.^/\\   |
 |____________________________________________________________________-->
 <!--DESCRIPTION
-|   Everything brine
+|   Oatmeal cream pies
 |____________________________________________________________________-->
 
----
-title: The Everything Brine
-subtitle: The secret to juicy meat
----
 
-This brine is more of a ratio than a recipe. You can use any unsalted liquid and meat. Brine the meat in the refrigerator for 24-48 hours and bring it to room temperature before cooking.
+## Hardware
+Qty | Equipment
+-|-
+`1` | Food processor
+`1` | Mixing bowl
+`1` | Whisk
+`1` | Pie pan
+`1` | Sauce pan
 
-## The Ratio
+## Software
 
-50 g salt : 1 qt liquid
+### Crust
 
-## Options
+Qty | Ingredient
+-|-
+`30`      | Oreos (finely crushed)
+`4 Tbsp`  | Water
 
-### Turkey Brine
+### Filling
 
-3 qt apple juice, 1 qt cranberry juice, 200 g salt
+Qty | Ingredient
+-|-
+`16 oz`   | White sweet potatoes, diced
+`1 c`     | Cashews
+`1 c`     | Coconut milk
+`1/2 c`   | Egg white
+`1/4 c`   | Maple syrup
+`1/2`     | Lemon (juice)
+`1/2 c`   | Sugar
+`10`      | Oreos broken into chunks
 
-Brine turkey in a 14 qt stock pot or 5 gallon bucket
+## Procedure
 
-
-### Lemon Chicken Brine
-
-Use 1:1 ratio of water to lemon juice for a lemon brine
-
-### Lime Pork Shoulder
-
-3 c lime juice, 1 c water, 50 g salt
-
+1. Boil 2–3 cups of water, pour over cashews, and soak for 1 hour.
+1. Boil the sweet potatoes for 10–15 minutes.
+1. Preheat the oven to 350°F.
+1. Pulse 30 Oreos into fine crumbs for the crust.
+1. Mix 4 Tbsp water into the Oreo crumbs.
+1. Press the mixture into the bottom and sides of a pie pan.
+1. Puree the sweet potatoes with the coconut milk, sugar, maple syrup, lemon juice, and salt.
+1. Rinse the soaked cashews and puree for 5 minutes, scraping the sides periodically, until a smooth paste forms.
+1. Fold the cashew paste into the sweet potato puree; once cooled to room temperature, whisk in the egg white and protein powder.
+1. Fold in the broken Oreos and pour the mixture into the crust.
+1. Bake at 350°F for 1 hour.
+1. Chill the pie before serving.
