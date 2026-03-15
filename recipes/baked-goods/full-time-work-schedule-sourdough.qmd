@@ -1,3 +1,9 @@
+---
+title: Full-Time Work Schedule Sourdough
+subtitle: Weeknight sourdough is possible!
+toc: true
+toc-depth: 6
+---
 <!--___________________________________________________________________|
 |______________________________________________________________________|
 |        _   __   _   _ _   _   _   _         _                        |
@@ -26,13 +32,6 @@
 |   Sourdough recipe
 |____________________________________________________________________-->
 
----
-title: Full-Time Work Schedule Sourdough
-subtitle: Weeknight sourdough is possible!
-toc: true
-toc-depth: 6
----
-
 ```text
 Author: Rebecca
 Yield:  2 loaves
@@ -43,8 +42,7 @@ experimenting with process to figure out a consistent way to feasibly
 bake sourdough sandwich bread within the constraints of my work
 schedule.
 
-The process here might be a little less traditional, but it works for me
-and I've been getting good results for my purposes.
+The process here might be a little less traditional (e.g. longer proof after refrigeration), but I've been getting great results and it works for my schedule.
 
 ## General
 
@@ -60,14 +58,26 @@ and I've been getting good results for my purposes.
 
 Qty | Ingredient
 -|-
-`250 g  (125 g)`  | Happy starter
-`700 g  (350 g)`  | Filtered water
+`250 g  (125 g)`  | Happy starter or [levain](#reactivating-starter)
+`3 c    (1 1/2 c)`| Filtered water
 `1000 g (500 g)`  | All purpose or bread flour
-`24 g   (12 g)`   | Salt*
-`~ 2 qt`          | Boiling water
+`24 g   ( 12 g)`  | Salt**
+`~ 2 qt`          | Boiling water to generate steam*
 
-\* Substitute with `0.75 c (6 Tbsp)` everything bagel seasoning for
-a tasty variation.
+\* Boiling water is necessary only if _not_ using the double-pan method.
+
+#### Variation 1: Everything Bagel
+
+** Substitute salt with `0.75 c (6 Tbsp for one loaf)` everything bagel seasoning.
+
+#### Variation 2: Rosemary Garlic
+
+Add these ingredients when adding the salt in the recipe:
+
+Qty | Ingredient
+-|-
+`3 Tbsp (1.5 Tbsp)` | Dried Rosemary
+`1/4 c  (2   Tbsp)` | Dried granulated garlic
 
 ### Hardware
 
@@ -77,15 +87,20 @@ Qty | Equipment
 `1`     | Kitchen scale
 `1`     | Probe thermometer
 `2 or 4 (1 or 2)`* | Loaf pans
-`2 (1)` | (Optional) Parchment paper sheet for lining loaf pan
 `1`     | Mixing bowl
 `2 (1)` | Containers with lids for dough refrigeration (e.g. mixing bowl, pot with lid, etc)
-`1`     | Silicone coated flipper
 `1`     | Rimmed baking sheet or any other pan with sides (to hold water for baking)
-`1`     | Kettle or device to boil 2 qt water
-`2 (1)` | (Optional) Sheet of foil
+`1`     | Sharp blade: e.g. razor, X-ACTO, paring knife
+`1`     | Kettle or device to boil 2 qt water**
+`2 (1)` | (Optional) Parchment paper sheet for lining loaf pan***
+`1`     | (Optional) Silicone coated flipper
+`2 (1)` | Sheet of foil**
 
 \* If using the double-pan method, you will need two pans per loaf so one can serve as a lid.
+
+** Required if _not_ using the double-pan method.
+
+\*** ___Never___ use wax paper instead of parchment paper when baking - unless you like the taste of crayons.
 
 #### `#ifndef STAND_MIXER` If Not Using Stand Mixer
 
@@ -94,50 +109,50 @@ Qty | Equipment
 
 #### `#ifdef STAND_MIXER` If Using Stand Mixer
 
-- Paddle attachment
 - Dough hook attachment
 
 ## Process
+
+### Day 0
+
+'Day 0' is necessary if your starter is a little sleepy or sad.
+
+#### Evening 0
+
+If your starter is in the fridge, give it a little boost by feeding it to reawaken it. See my process for [reactivating starter](#reactivating-starter).
 
 ### Day 1
 
 #### Morning 1
 
-1. Feed starter one last time to make enough starter for recipe
-   (e.g. `100 g` happy starter + `80 g` water + `80 g` for 2 loaves).
-   Some know this as leaven.
+1. Feed starter one last time to make the [levain](#reactivating-starter). Mix a tablespoon or so of your reawakened starter with 150 g (or 75 g for one loaf) each of water and flour.
 
 #### Evening 1
 
 1. Mix starter + water well.
 
-   `#ifdef STAND_MIXER` __If Using Stand Mixer__
-   - Use the paddle attachment.
-
-1. Add flour and mix until it turns to a blob. __Note:__ Do not add salt at this time. See resource on autolyse.
-
-   `#ifdef STAND_MIXER` __If Using Stand Mixer__
-   - Remove attachment after it turns into a blob.
+1. Add flour and mix until it turns to a blob. __Note:__ Do not add salt at this time. See resource on [autolyse](#resources).
 
 1. Cover bowl and let it sit for 1 - 2 hr (autolyse step).
 
-1. Mix in salt (or everything bagel seasoning for variation)
-   and knead 5 - 15 min.
+1. Mix in salt* and knead.
 
    `#ifndef STAND_MIXER` __If Not Using Stand Mixer__
    - Wet your hands and knead for 5 minutes or as long as you can stand.
-   - Use the dough scraper to scrape up bits if they get stuck on the
-   - To avoid a tough loaf, do not flour your work surface. This prevents working too much extra flour into the dough.
-     surface.
+   - Use the dough scraper to scrape up bits if they get stuck on the surface.
+   - Many resources suggest avoiding a floured work surface to prevent a tough loaf. However, I have used flour when my dough was over-hydrated or my starter wasn't mature enough, making the dough stringy and sticky. Avoid flouring if possible, but you probably won't ruin the loaf if you do.
 
    `#ifdef STAND_MIXER` __If Using Stand Mixer__
    - Use the dough hook attachment.
+   - Knead on level 2/10 for 20-30 minutes.
+
+   *\ For the everything bagel variation, add the bagel seasoning instead of the salt. For the rosemary garlic variation, add the rosemary and garlic at this time.
 
 1. Repeat `3x`.
    1. Cover bowl for 30 minutes.
    1. 'Stretch and Fold'. See [note](#stretch-and-fold-in-mixing-bowl).
 
-      `#ifdef STAND_MIXER` __Optional to simplify process__
+      `#ifdef STAND_MIXER` __The lazy method__
       1. If using a stand mixer, you can 'stretch and fold' by leaving the dough in the mixer and just knead it with the dough hook for 30-60 seconds.
 
       `#else` __Or__
@@ -169,32 +184,45 @@ Qty | Equipment
 #### Evening 2
 
 1. After 8 - 12 hours, remove loaf pans from oven.
-1. Score loaves with sharp knife.
+1. Score loaves with sharp blade.
 
    __Notes:__
    -  With this method, the dough might have formed a skin.
      Ensure that you break through this skin when scoring.
-   - I use an X-ACTO knife to score; you can also use a lame
+   - I use an X-ACTO knife to score; you can also use a lame.
 
 1. Put one oven rack on the bottom part of the oven, and one rack in the
    middle.
-1. __If _not_ using double pan method:__ Put baking sheet on the bottom rack.
-1. Preheat oven to 425 degrees Fahrenheit.
 1. __If _not_ using double pan method:__
+   1. Put baking sheet on the bottom rack.
    1. Boil `2 qt` water.
-   2. When oven is preheated, fill baking sheet with water
+   1. Fill baking sheet with water
    (don't let it overflow).
-1. __If using double pan method:__ To create a steam chamber, stack one pan upside-down over each loaf. Place the pans on the middle rack for an even bake.
-1. __If _not_ using double pan method:__ If after 20 minutes, if the crust is already brown, cover each loaf
+4. __If using double pan method:__ To create a steam chamber, stack one pan upside-down over each loaf.
+5. Place the loaf pans on the middle rack in a cold oven see [note](#avoid-a-tough-bottom-crust).
+6. Preheat oven to 425 degrees Fahrenheit. See [note](#avoid-a-tough-bottom-crust).
+7. __If _not_ using double pan method:__ If after 25 minutes, if the crust is already brown, cover each loaf
    with foil.
-1. __If using double pan method:__ Remove top pan after 45 minutes.
-1. Bake for another 5-10 minutes or until the internal temperature of bread is
+8. __If using double pan method:__ Remove top pan after 45 minutes.
+9. Bake for another 5-15 minutes or until the internal temperature of bread is
    205 - 210 degrees Fahrenheit.
-1. Remove each bread loaf from oven and pan.
-1. Let it cool (or don't 😅) and cut it in half to view the beautiful
+10. Remove each bread loaf from oven and pan.
+11. Let it cool (or don't 😅) and cut it in half to view the beautiful
    crumb.
 
 ## Notes On My Process
+
+### Avoid a Tough Bottom Crust
+
+The crust of my bread used to be so tough it was hard to cut through; I actually burned out my electric knife. I have since modified my process to avoid a thick, difficult bottom.
+
+#### Cold Start
+
+I find that starting bread in a cold oven prevents the bottom crust from becoming too tough.
+
+#### Oven Temperature
+
+I use a lower temperature than many recipes call for. While common instructions suggest starting at 500°F and dropping to 450°F, I found those settings made the crust too hard. I get great results using 425°F.
 
 ### No Special Equipment
 
@@ -237,14 +265,23 @@ When making a loaf of bread and I transfer the starter to the main
 mixing bowl, I save the bowl with the starter remnants and:
 
 1. Scrape the remnants of the starter from the sides of the bowl.
-1. Mix the starter remnants with equal parts water and flour
-   (about `5 - 10 g`).
+1. Mix the starter remnants with a small, roughly equal amount of flour and water (about 5–10 g). I don’t measure; I just aim for a thick pancake batter consistency.
 1. Transfer to a clean jar and put back in the fridge.
 
 #### Reactivating Starter
 
-I first scale up my small starter into a full-sized batch. After it doubles in volume, it’s ready to be used for the bread prep.
+I keep my starter in the fridge, so I usually reactivate the starter with a small feeding, then I make a [levain](https://amybakesbread.com/beginner-guide-sourdough-starter-and-levain/) the next morning. This is the process I follow:
+
+Mix together
+
+- 1/2 tsp starter from fridge
+- 1.5 tsp water
+- 1 Tbsp flour
+
+Let it sit on the counter overnight. In the morning, add 150 g (or 75 g for one loaf) each of flour and filtered water. After 6–10 hours, the starter is ready; I use the entire contents for the recipe.
 
 ## Resources
 
 [What is an autolyse?](https://www.kingarthurbaking.com/blog/2017/09/29/autolyse-sourdough#what-is)
+
+[How and why to make levain](https://amybakesbread.com/beginner-guide-sourdough-starter-and-levain/)
