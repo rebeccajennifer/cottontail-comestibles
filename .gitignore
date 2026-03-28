@@ -1,2 +1,5 @@
 *_files
 publish
+/.quarto/
+**/*.quarto_ipynb
+*.html
