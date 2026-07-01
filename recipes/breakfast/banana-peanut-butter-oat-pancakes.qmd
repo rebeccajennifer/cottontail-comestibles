@@ -1,7 +1,8 @@
 ---
-title: Weird Breakfast
-subtitle: Strange but tasty!
-draft: true
+title: Peanut Butter Banana Oat Pancakes
+subtitle: Use up those mushy bananas 🍌
+toc: true
+toc-depth: 6
 ---
 <!--___________________________________________________________________|
 |______________________________________________________________________|
@@ -28,29 +29,65 @@ draft: true
 |   //\^.^/\\  //\^.^/\\  //\^.^/\\  //\^.^/\\  //\^.^/\\  //\^.^/\\   |
 |____________________________________________________________________-->
 <!--DESCRIPTION
-|   Egg and rice breakfast
+|   Banana pancake recipe
 |____________________________________________________________________-->
 
-This breakfast might sound a little weird, but it's super tasty and high in protein.
+```text
+Author: Rebecca
+Yield:  ~10 pancakes
+```
 
-## Ingredients
+## Software
 
-3 oz cooked egg white
-1/2 c shelled edamame
+### Dry Ingredients
 
-1/2 c cooked rice
+Qty | Ingredient
+-|-
+`1 c`     | Rolled oats
+`1/4 c`   | Peanut butter powder
+`1 tsp`   | Pumpkin pie spice or cinnamon
+`1/4 tsp` | Salt
+`1 tsp`   | Baking soda*
 
-1/4 c plain greek yogurt
-squirt of sriracha sauce
-2 t olive oil
-salt
+\* See notes.
 
-## Protein Content
+### Wet Ingredients
 
-25g protein
+Qty | Ingredient
+-|-
+`3`       | Overripe bananas
+`2`       | Eggs
+`2 Tbsp`  | Almond milk*
+`1 Tbsp`  | Vanilla extract
+`1 tsp`   | Vinegar or lemon juice*
 
-### Breakdown
+ \* See notes.
 
-10g - egg
-10g - edamame
- 5g - yogurt
+### Additional Ingredients
+
+Measure these with your ♥️
+
+- Butter/oil for cooking, topping
+- Maple syrup
+
+## Hardware
+
+```text
+Griddle
+Turner
+```
+
+## Procedure
+
+1. Preheat griddle to medium low heat (~3/10).
+1. Blend oats into flour. Combine all dry ingredients.
+1. Blend wet ingredients.
+1. Combine wet and dry ingredients.
+1. Pour on griddle in `~1/3 c` portions.
+1. Cook on each side for 2-3 minutes.
+1. Serve with butter/coconut oil/maple syrup as desired.
+
+## Notes
+
+1. You can replace the baking soda and vinegar with `1 tsp` baking powder.
+1. Almond milk can be substituted with water or any kind of milk.

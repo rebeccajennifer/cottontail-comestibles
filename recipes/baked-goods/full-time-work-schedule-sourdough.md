@@ -1,10 +1,11 @@
+<!--
 ---
 title: Full-Time Work Schedule Sourdough
 subtitle: Weeknight sourdough is possible!
 toc: true
 toc-depth: 6
 ---
-<!--___________________________________________________________________|
+-___________________________________________________________________|
 |______________________________________________________________________|
 |        _   __   _   _ _   _   _   _         _                        |
 |   |   |_| | _  | | | V | | | | / |_/ |_| | /                         |
@@ -32,15 +33,16 @@ toc-depth: 6
 |   Sourdough recipe
 |____________________________________________________________________-->
 
+# Full-Time Work Schedule Sourdough
+
 ```text
 Author: Rebecca
 Yield:  2 loaves
 ```
 
-I'm a software engineer and work 9 hour days so I have been
-experimenting with process to figure out a consistent way to feasibly
-bake sourdough sandwich bread within the constraints of my work
-schedule.
+I'm a software engineer and sometimes work long hours so I have been
+experimenting with a process to consistently bake sourdough sandwich
+bread within the constraints of my work schedule.
 
 The process here might be a little less traditional (e.g. longer proof after refrigeration), but I've been getting great results and it works for my schedule.
 
@@ -61,16 +63,16 @@ Qty | Ingredient
 `300 g  (150 g)`  | Happy starter or [levain](#reactivating-starter)
 `3 c    (1 1/2 c)`| Filtered water
 `1000 g (500 g)`  | All purpose or bread flour
-`24 g   ( 12 g)`  | Salt**
+`4 tsp  (2 tsp)`  | Salt**
 `~ 2 qt`          | Boiling water to generate steam*
 
 \* Boiling water is necessary only if _not_ using the double-pan method.
 
-#### Variation 1: Everything Bagel
+#### Variation: Everything Bagel
 
 ** Substitute salt with `0.75 c (6 Tbsp for one loaf)` everything bagel seasoning.
 
-#### Variation 2: Rosemary Garlic
+<!-- #### Variation 2: Rosemary Garlic
 
 __Note:__ In all of my attempts to make rosemary sourdough, the loaf never seems to rise enough. I recently learned that this is likely due to the antimicrobial properties of rosemary. So basically the rosemary kills my yeast 😧 I think it's because I add the rosemary too early in the process - perhaps if I add it right before I shape the loaf it will turn out better. So, add rosemary at your own risk 🫣
 
@@ -79,7 +81,7 @@ In any case, this the appropriate amount to add:
 Qty | Ingredient
 -|-
 `3 Tbsp (1.5 Tbsp)` | Dried Rosemary
-`1/4 c  (2   Tbsp)` | Dried granulated garlic
+`1/4 c  (2   Tbsp)` | Dried granulated garlic -->
 
 ### Hardware
 
@@ -89,7 +91,7 @@ Qty | Equipment
 `1`     | Kitchen scale
 `1`     | Probe thermometer
 `2 or 4 (1 or 2)`* | Loaf pans
-`1`     | Mixing bowl
+`1`     | Large mixing bowl
 `2 (1)` | Containers with lids for dough refrigeration (e.g. mixing bowl, pot with lid, etc)
 `1`     | Rimmed baking sheet or any other pan with sides (to hold water for baking)
 `1`     | Sharp blade: e.g. razor, X-ACTO, paring knife
@@ -127,9 +129,9 @@ If your starter is in the fridge, give it a little boost by feeding it to reawak
 
 #### Morning 1
 
-1. Feed starter one last time to make the [levain](#reactivating-starter). Mix a tablespoon or so of your reawakened starter with 120 g (or 60 g for one loaf) each of water and flour.
+1. Feed starter one last time to make the [levain](#reactivating-starter). Mix a tablespoon or so of your reawakened starter with 150 g (or 75 g for one loaf) each of water and flour.
 
-#### Evening 1
+#### Afternoon 1
 
 1. Mix starter + water well.
 
@@ -146,9 +148,9 @@ If your starter is in the fridge, give it a little boost by feeding it to reawak
 
    `#ifdef STAND_MIXER` __If Using Stand Mixer__
    - Use the dough hook attachment.
-   - Knead on level 2/10 for 20-30 minutes.
+   - Knead on level 2/10 for 10-20 minutes.
 
-   *\ For the everything bagel variation, add the bagel seasoning instead of the salt. For the rosemary garlic variation, add the rosemary and garlic at this time.
+   \* For the everything bagel variation, add the bagel seasoning instead of the salt. <!--For the rosemary garlic variation, add the rosemary and garlic at this time.-->
 
 1. Repeat `3x`.
    1. Cover bowl for 30 minutes.
@@ -183,33 +185,32 @@ If your starter is in the fridge, give it a little boost by feeding it to reawak
 1. Put loaf pans into cold oven.
 1. Go to work or get on with your day.
 
-#### Evening 2
+#### Afternoon 2
 
 1. After 8 - 12 hours, remove loaf pans from oven.
 1. Score loaves with sharp blade.
 
-   __Notes:__
-   -  With this method, the dough might have formed a skin.
+   __Note:__
+   - With this method, the dough might have formed a skin.
      Ensure that you break through this skin when scoring.
-   - I use an X-ACTO knife to score; you can also use a lame.
 
-1. Put one oven rack on the bottom part of the oven, and one rack in the
-   middle.
 1. __If _not_ using double pan method:__
-   1. Put baking sheet on the bottom rack.
-   1. Boil `2 qt` water.
-   1. Fill baking sheet with water
+   1. Put one oven rack on the bottom part of the oven, and one rack in the
+      middle.
+   2. Put baking sheet on the bottom rack.
+   3. Boil `2 qt` water.
+   4. Fill baking sheet with water
    (don't let it overflow).
-4. __If using double pan method:__ To create a steam chamber, stack one pan upside-down over each loaf.
-5. Place the loaf pans on the middle rack in a cold oven see [note](#avoid-a-tough-bottom-crust).
-6. Preheat oven to 425 degrees Fahrenheit. See [note](#avoid-a-tough-bottom-crust).
-7. __If _not_ using double pan method:__ If after 25 minutes, if the crust is already brown, cover each loaf
-   with foil.
-8. __If using double pan method:__ Remove top pan after 45 minutes.
-9. Bake for another 5-15 minutes or until the internal temperature of bread is
+1. __If using double pan method:__ To create a steam chamber, stack one pan upside-down over each loaf.
+1. Place the loaf pans on the middle rack in a cold oven see [note](#avoid-a-tough-bottom-crust).
+1. Set the oven to 425 degrees Fahrenheit. See [note](#avoid-a-tough-bottom-crust). Set a timer for 55 minutes.
+   1. __If _not_ using double pan method:__ If after 25 minutes, if the crust is already brown, cover each loaf
+      with foil.
+   1. __If using double pan method:__ Remove top pan after 55 minutes.
+1. Bake for another 5-15 minutes or until the internal temperature of bread is
    205 - 210 degrees Fahrenheit.
-10. Remove each bread loaf from oven and pan.
-11. Let it cool (or don't 😅) and cut it in half to view the beautiful
+1. Remove each bread loaf from oven and pan.
+1. Let it cool (or don't 😅) and cut it in half to view the beautiful
    crumb.
 
 ## Notes On My Process
@@ -263,11 +264,11 @@ discard I collect.
 
 #### Restarting After A Loaf
 
-When making a loaf of bread and I transfer the starter to the main
+When making a loaf of bread and after I transfer the starter to the main
 mixing bowl, I save the bowl with the starter remnants and:
 
 1. Scrape the remnants of the starter from the sides of the bowl.
-1. Mix the starter remnants with a small, roughly equal amount of flour and water (about 5–10 g). I don’t measure; I just aim for a thick pancake batter consistency.
+1. Mix the starter remnants with a small, roughly equal amount of flour and water (about 5–10 g). I don’t measure for this step; I just aim for a thick pancake batter consistency.
 1. Transfer to a clean jar and put back in the fridge.
 
 #### Reactivating Starter
@@ -280,7 +281,7 @@ Mix together
 - 1.5 tsp water
 - 1 Tbsp flour
 
-Let it sit on the counter overnight. In the morning, add 150 g (or 75 g for one loaf) each of flour and filtered water (1/2 c + 2 Tbsp water by volume). After 6–10 hours, the starter is ready; I use the entire contents for the recipe.
+Let it sit on the counter overnight. In the morning, add 150 g (or 75 g for one loaf) each of flour and filtered water (1/2 c + 2 Tbsp water by volume). Let it sit for at least 6 hours, or overnight, the starter is ready; I use the entire contents for the recipe. It's ok to use the starter if it has passed it's peak and is a little hungry as long as its been fed within 24 hours.
 
 ## Resources
 
